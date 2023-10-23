@@ -1,0 +1,105 @@
+.header{
+    background-color: #394A59;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-bottom: 1000px;
+}
+.navigation a{
+    margin-right: 2px;
+
+}
+.divider{
+    width: 50%;
+    margin: 0 auto;
+    border: 3px solid #808080;
+    margin-top: 20px;
+}
+
+.about .about__title{
+    color: #996633;
+    text-align: center;
+
+}
+.about .about__description{
+    width: 50%;
+    margin-left: auto;
+    text-align: right;
+}
+
+.special .special__title{
+    color: #996633;
+    text-align: center;
+}
+
+.first-list-title{
+    font-weight: bold;
+}
+.first-list ul{
+    margin-left: 40px;
+    color: blue;
+    list-style-type: circle;
+}
+.first-list__img img{
+    width: 150px;
+    height: 150px;
+}
+.second-list__title{
+    font-weight: bold;
+}
+.second-list ol{
+    margin-left: 40px;
+}
+.second-list__img img{
+    width: 300px;
+    height: 300px;
+}
+.menu__title{
+    text-align: center;
+    color: #996633;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ .menu .menu__table{
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+.menu__table th, .menu__table td{
+
+    padding: 15px;
+    border: 1px solid black;
+}
+.menu__table .tradional-coffee{
+    background-image: url(./Image_buoi4/chilling-cafe-13.jpg);
+    color: white;
+    text-align: center;
+}
+.menu__table .expresso{
+    background-image: url(./Image_buoi4/chilling-cafe-11.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.footer .footer__title{
+    text-align: center;
+    color: #996633;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.footer .footer__contact-info{
+    text-align: center;
+}
